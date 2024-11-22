@@ -558,7 +558,7 @@ footer{
        label{
         display: block;
         font-size: 2rem;
-        margin-left: 12rem;
+        margin-left: 11rem;
         cursor: pointer;
     }
 
@@ -694,12 +694,12 @@ footer{
     }
 
     .img-car>img{
-        height: 13vh;
+        height: 11vh;
     }
     .clr>img{
         border: 2px solid rgb(19, 130, 167);
         border-radius: 5px;
-        height: 13vh;
+        height: 11vh;
     }
     .img-car>h5{
         font-size: .8rem;
@@ -743,7 +743,9 @@ footer{
 
     .story{
         width: calc(100% - 30px);
+
     }
+  
 
     .sas{
         display: flex;
@@ -752,7 +754,7 @@ footer{
     .story1{
         margin-top: 1rem;
         /* border: 2px solid; */
-        width: 45vh;
+        width: 40vh;
         align-items: center;
     }
     .story1>h5{
@@ -800,12 +802,12 @@ footer{
     .input>input{
         background-color: transparent;
         border: none;
-        /* width: 6rem; */
         outline: none;
-        width: 9rem;
+        height: .6rem;
+        width: 10rem;
         margin-top: .4rem;
         padding-inline: .7rem;
-        padding-block: .8rem;
+        padding-block: .9rem;
     }
     
 
@@ -834,7 +836,18 @@ footer{
         text-align: center;
         width: 100% - 30px;
     }
-
+    
+     .inp>input{
+        background-color: transparent;
+        border: 2px solid;
+        outline: none;
+        height: .2rem;
+        width: 10rem;
+        margin-top: .2rem;
+        padding-inline: .7rem;
+        padding-block: 1.2rem;
+    }
+    
     footer{
         font-size: 11px;
     }
