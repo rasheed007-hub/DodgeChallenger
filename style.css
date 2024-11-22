@@ -5,6 +5,7 @@
 }
 body{
     background-color: wheat;
+    width: 100%;
     scroll-behavior: smooth;
 }
 header{
@@ -13,7 +14,7 @@ header{
 }
 
 .space{
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
 }
 nav{
@@ -74,13 +75,9 @@ label, .check_icon{
     align-items: center;
     /* justify-content: space-between; */
     margin-bottom: 1rem;
-    gap: 14rem;
+    gap: 19rem;
 }
 
-.text{
-    /* border: 2px solid; */
-    width: 35%;
-}
 
 .c_text>h1{
     font-size: 3rem;
@@ -194,9 +191,6 @@ label, .check_icon{
     height: 60px;
 }
 
-.features_ad{
-    margin-block: 5rem;
-}
 
 .f_text{
     display: flex;
@@ -406,7 +400,6 @@ label, .check_icon{
 
 .sack{
     background-color: rgb(148, 172, 172);
-    width: 100%;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -418,10 +411,9 @@ label, .check_icon{
     border-radius: 10px 0px 0px 10px;
 }
 
-.sit{
-    /* border: 2px solid; */
+/* .sit{
     width: 90vh;
-}
+} */
 
 .sit>p{
     margin-block: 1rem;
@@ -429,6 +421,7 @@ label, .check_icon{
 }
 
 .input{
+    margin-left: -11rem;
     text-align: center;
     width: 45vh;
     height: 7vh;
@@ -565,7 +558,7 @@ footer{
        label{
         display: block;
         font-size: 2rem;
-        margin-left: 14rem;
+        margin-left: 12rem;
         cursor: pointer;
     }
 
@@ -607,19 +600,11 @@ footer{
         display: block;
         transform: none;
     }
-/* 
-    .nav_right{
-        display: none;
-    } */
 
     .content_sec{
         width: calc(100% - 30px);
         flex-direction: column;
         gap: 5rem ;
-    }
-    .image{
-        width: 10vh;
-        height: 50vh;
     }
     .image>img{
         width: 100%;
