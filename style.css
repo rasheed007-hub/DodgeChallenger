@@ -426,7 +426,7 @@ label, .check_icon{
     width: 45vh;
     height: 7vh;
     border: 1px solid;
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .input>input{
@@ -447,7 +447,7 @@ label, .check_icon{
 .sit>form>button{
     height: 7vh;
     width: 15vh;
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
     background-color: rgb(19, 130, 167);
     border: none;
     color: white;
@@ -505,7 +505,7 @@ label, .check_icon{
     text-align: center;
     width: 30vh;
     height: 7vh;
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
     border: 1px solid;
 }
 
@@ -529,7 +529,7 @@ label, .check_icon{
 .ha>form>button{
     height: 7.5vh;
     width: 10vh;
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
     background-color: rgb(19, 130, 167);
     border: none;
     color: white;
@@ -762,7 +762,7 @@ footer{
         align-items: center;
     }
     .story1>h5{
-        font-size: 17px;
+        font-size: 19px;
     }
     .story1>p{
         font-size: 14px;
@@ -798,17 +798,17 @@ footer{
       }    
     .input{
         text-align: center;
-        width: 30vh;
-        height: 7vh;
-        border-radius: 5px;
+        width: 25vh;
+        height: 6vh;
+        border-radius: 5px 0px 0px 5px;
         border: 1px solid;
     }
     .input>input{
         background-color: transparent;
-        border: none;
+        /* border: 2px solid; */
         outline: none;
         height: .6rem;
-        width: 10rem;
+        width: 15rem;
         margin-top: .4rem;
         padding-inline: .7rem;
         padding-block: .9rem;
@@ -821,9 +821,9 @@ footer{
 
 
     .sit>form>button{
-        height: 7.5vh;
+        height: 6.5vh;
         width: 10vh;
-        border-radius: 5px;
+        border-radius: 0px 5px 5px 0px;
         background-color: rgb(19, 130, 167);
         border: none;
         color: white;
@@ -843,11 +843,11 @@ footer{
     
      .inp>input{
         background-color: transparent;
-        border: 2px solid;
+        /* border: 2px solid; */
         outline: none;
         height: .2rem;
-        width: 10rem;
-        margin-top: .2rem;
+        width: 14rem;
+        margin-top: .5rem;
         padding-inline: .7rem;
         padding-block: 1.2rem;
     }
