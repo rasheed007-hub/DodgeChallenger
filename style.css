@@ -611,6 +611,9 @@ footer{
         margin-top: -1rem;
     }
 
+    .c_text>h1{
+        font-size: 40px;
+    }
     .c_text, .image{
         width: 90%;
     }
@@ -753,6 +756,7 @@ footer{
     }
     .story1{
         margin-top: 1rem;
+        text-align: center;
         /* border: 2px solid; */
         width: 40vh;
         align-items: center;
