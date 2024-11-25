@@ -498,6 +498,12 @@ label, .check_icon{
     text-transform: capitalize;
     color: black;
  }
+
+.ima>a>img{
+    height: 1rem;
+    border-radius: 100%;
+}
+
 .ha1{
     margin-top: -.8rem;
     display: flex;
