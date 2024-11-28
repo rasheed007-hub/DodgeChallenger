@@ -643,7 +643,7 @@ footer{
         width: calc(100% - 60px);
     }
     .car_details{
-        gap: 1rem;
+        gap: 2rem;
         padding: 1rem;
         overflow-x: scroll;
     }
