@@ -863,6 +863,17 @@ footer{
         width: 100% - 30px;
     }
 
+    .ha{
+        font-size: 17px;
+    }
+    .ha1{
+        font-size: 15px;
+    }
+
+    .ima>a>img{
+        height: 1rem;
+        /* border-radius: 100%; */
+    }
     .inp{
         display: none;
         /* width: 7rem;
