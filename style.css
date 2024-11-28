@@ -215,7 +215,7 @@ label, .check_icon{
 .box{
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2.5rem;
     margin-top: 3rem;
     
 }
@@ -474,7 +474,7 @@ label, .check_icon{
 
 }
 .services{
-    margin-block: 2rem;
+    /* margin-block: 2rem; */
     
 }
 .services>img{
@@ -491,11 +491,11 @@ label, .check_icon{
     margin-block: 1rem 3rem;
     display: flex;
     flex-direction: column;
-    gap: .3rem;
+    /* gap: .3rem; */
 }
 .ha>a{
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: black;
  }
 
@@ -646,7 +646,6 @@ footer{
         gap: 1rem;
         padding: 1rem;
         overflow-x: scroll;
-
     }
     /* .d_card{
         width: calc(100% - 60px);
