@@ -854,7 +854,8 @@ footer{
     .sec{
         grid-template-columns: 1fr 1fr;
         gap: -6rem;
-        text-align: center;
+        /* border: 2px solid; */
+        width: 24rem;
     }
 
     .services{
