@@ -309,8 +309,8 @@ label, .check_icon{
     justify-content: end;
     gap: 2rem;
     font-size: 30px;
-    margin-block: -2rem .8rem;
-    /* margin-right: 1rem; */
+    margin-block: -1rem .8rem;
+    margin-right: 2rem;
 }
 .fir>i{
     margin-left: .6rem;
@@ -552,11 +552,18 @@ label, .check_icon{
 }
 
 footer{
-    background-color: peachpuff;
+    background-color: wheat;
     text-align: center;
     font-size: 14px;
 }
 
+.foot{
+    border-top: 1px solid black;
+}
+
+.foot>p{
+    padding-top: .6rem;
+}
 
 
 
@@ -679,7 +686,7 @@ footer{
     }
     .box{
         /* grid-template-columns: 1fr; */
-        width: calc(100% - 30px);
+        width: calc(100% - 10px);
         flex-direction: column;
     }
     .box>div{
@@ -698,9 +705,8 @@ footer{
         font-size: 27px;
     }
     .link{
-        font-size: 12px;
+        font-size: 10px;
         display: block;
-        /* justify-content: space-between; */
     }
 
     .link>p{
@@ -846,8 +852,9 @@ footer{
     }
 
     .sec{
-        grid-template-columns: 1fr;
-        justify-content: space-around;    
+        grid-template-columns: 1fr 1fr;
+        gap: -6rem;
+        text-align: center;
     }
 
     .services{
@@ -855,16 +862,27 @@ footer{
         text-align: center;
         width: 100% - 30px;
     }
+
+    .inp{
+        display: none;
+        /* width: 7rem;
+        height: 3rem; */
+    }
     
      .inp>input{
-        background-color: transparent;
+        display: none;
+        /* background-color: transparent;
         /* border: 2px solid; */
-        outline: none;
-        height: .2rem;
-        width: 14rem;
+        /* outline: none; */
+        /* height: 1rem; */
+        /* width: 5rem;
         margin-top: .5rem;
         padding-inline: .7rem;
-        padding-block: 1.2rem;
+        padding-block: 1.2rem;  */
+    }
+
+    .ha>form>button{
+        display: none;
     }
     
     footer{
