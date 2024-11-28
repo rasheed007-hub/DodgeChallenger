@@ -574,12 +574,14 @@ footer{
         width: 100%;
     } */
     .logo{
+        width: 6rem;
         /* width: calc(100% - 30px); */
         margin-left: 1rem;
     }
        label{
         display: block;
         font-size: 2rem;
+        margin-top: -1rem;
         margin-left: 11rem;
         cursor: pointer;
     }
